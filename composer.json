@@ -1,0 +1,24 @@
+{
+    "name": "rusadrako/telegram_send_service",
+    "description": "Сервис отправки сообщений в telegram",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Petukhov Leonid"
+        }
+    ],
+    "require": {
+        "rusadrako/driver_db": "^2.0",
+        "rusadrako/api": "^3.0",
+        "rusadrako/debug": "^0.3.3",
+        "rusadrako/model_obj": "^0.3.4",
+        "rusadrako/telegram_notification": "^1.1",
+        "rusadrako/router": "^0.2.0"
+    }
+}
