@@ -1,0 +1,13 @@
+<?php
+use RusaDrako\driver_db\DB;
+
+return [
+	'db' => [
+		'DRIVER' => DB::DRV_MYSQLI,
+		'HOST' => ':HOST:',
+		'PORT' => ':PORT:',
+		'USER' => ':USER:',
+		'PASS' => ':PASS:',
+		'DBNAME' => ':DBNAME:',
+	],
+];
